@@ -1,0 +1,2 @@
+# ruby_design_pattern_sample
+rubyのデザインパターンサンプル
