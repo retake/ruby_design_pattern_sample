@@ -12,11 +12,7 @@ puts component.other_method
 
 puts ''
 puts ' ### DecoratorBに対して、存在しないmethodを実行 ###'
-begin
-  puts component.missing_method
-rescue=>ex
-  puts ex
-end
+puts component.missing_method rescue puts $!
 
 
 puts ''
